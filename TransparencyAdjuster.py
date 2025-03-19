@@ -10,7 +10,7 @@ import win32api
 class CustomSlider(QSlider):
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
-        self.paw = QPixmap(resource_path("paw_slider.png"))
+        self.paw = QPixmap(resource_path("paw.png"))
         self.setStyleSheet("""
             QSlider::groove:horizontal {
                 border: 1px solid #999999;
