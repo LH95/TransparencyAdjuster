@@ -14,7 +14,7 @@ pip install pyinstaller
 pip install PyQt5 pywin32
 ```
 
-執行擋:
+執行擋：
 ```bash
 pyinstaller --onefile --windowed --add-data "paw.png;." TransparencyAdjuster.py
 ```
